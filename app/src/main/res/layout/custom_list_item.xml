@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:minHeight="@dimen/list_item_height"
+    android:background="#ffff"
+    >
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark_color"
+       android:paddingTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="10dp"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/thumpView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+         android:padding="10dp"
+
+        android:layout_marginStart="2dp"
+        />
+<!--    to add split line between items-->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#424242" />
+
+</LinearLayout>

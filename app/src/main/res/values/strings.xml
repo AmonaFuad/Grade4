@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Grade4</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_English">Lessons of English</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_Math">Lessons of Math</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_Science">Lessons of Science</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_Social">Lessons of Social</string>
+</resources>
